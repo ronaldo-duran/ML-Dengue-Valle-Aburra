@@ -8,21 +8,27 @@ Se trabajó con dos familias:
 \end{itemize}
 
 \subsection{Ajuste de hiperparámetros con 70\% de datos + CV}
-Se realizó partición estratificada 70/30. El ajuste de hiperparámetros se ejecutó exclusivamente en el 70\% de entrenamiento mediante \texttt{GridSearchCV} y validación cruzada estratificada.
+Se realizó partición estratificada 70/30 sobre el conjunto balanceado final: \texttt{X\_train=(16207,46)} y \texttt{X\_test=(6947,46)}. El ajuste de hiperparámetros se ejecutó exclusivamente sobre entrenamiento mediante \texttt{GridSearchCV} con \texttt{StratifiedKFold(n\_splits=3)}.
 
 \subsubsection{Justificación de la métrica}
 Se utilizó \textbf{F1-macro} como métrica principal para balancear desempeño entre clases y no favorecer una clase particular.
 
 \subsubsection{Ajuste de modelos clásicos}
-Se ajustaron hiperparámetros de los 5 modelos clásicos definidos.
+Se ajustaron hiperparámetros de los 5 modelos clásicos definidos con búsqueda exhaustiva por grilla.
 
 \subsubsection{Ajuste de modelos de ensamble}
-Se ajustaron hiperparámetros de VotingClassifier, Random Forest y XGBoost.
+Se ajustaron hiperparámetros de VotingClassifier, Random Forest y XGBoost con el mismo esquema de validación cruzada estratificada.
 
 \subsection{Medida de calidad del modelo}
-La evaluación final se hizo sobre el 30\% de prueba no usado en tuning.
+La evaluación final se hizo sobre el 30\% de prueba no usado en tuning. Para el mejor modelo (XGBoost) la matriz de confusión en test fue:
+\[
+\begin{bmatrix}
+3025 & 449 \\
+793 & 2680
+\end{bmatrix}
+\]
 
 \input{tables/resultados_modelos}
 
 \subsubsection{Selección del mejor modelo}
-El mejor modelo se seleccionó por el mayor valor de \texttt{test\_f1\_macro}. Además, se reportaron recall, precision y accuracy en test.
+El mejor modelo se seleccionó por el mayor valor de \texttt{test\_f1\_macro}. Además, se reportaron recall, precision y accuracy en test y se exportaron los artefactos \texttt{best\_model\_formal\_7030.joblib} y \texttt{model\_input\_columns.joblib}.

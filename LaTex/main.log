@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.28)  28 FEB 2026 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.28)  28 FEB 2026 17:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -135,6 +135,70 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \extratabsurround=\skip55
 \backup@length=\skip56
 \ar@cellbox=\box59
+) (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen174
+)) (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen175
+) (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count298
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count299
+\leftroot@=\count300
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count301
+\DOTSCASE@=\count302
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen176
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count303
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count304
+\dotsspace@=\muskip17
+\c@parentequation=\count305
+\dspbrk@lvl=\count306
+\tag@help=\toks25
+\row@=\count307
+\column@=\count308
+\maxfields@=\count309
+\andhelp@=\toks26
+\eqnshift@=\dimen177
+\alignsep@=\dimen178
+\tagshift@=\dimen179
+\tagwidth@=\dimen180
+\totwidth@=\dimen181
+\lineht@=\dimen182
+\@envbody=\toks27
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 ) (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
@@ -148,15 +212,15 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen174
-\Gin@req@width=\dimen175
+\Gin@req@height=\dimen183
+\Gin@req@width=\dimen184
 ) (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count298
-\float@exts=\toks24
-\float@box=\box60
-\@float@everytoks=\toks25
-\@floatcapt=\box61
+\c@float@type=\count310
+\float@exts=\toks29
+\float@box=\box62
+\@float@everytoks=\toks30
+\@floatcapt=\box63
 ) (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
@@ -186,16 +250,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count299
+\c@section@level=\count311
 ) (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count300
+\etb@tempcnta=\count312
 ) (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen176
-\Hy@linkcounter=\count301
-\Hy@pagecounter=\count302
+\@linkdim=\dimen185
+\Hy@linkcounter=\count313
+\Hy@pagecounter=\count314
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -203,7 +267,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count303
+\Hy@SavedSpaceFactor=\count315
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -216,21 +280,21 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count304
+\c@Hy@tempcnt=\count316
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen177
+\XeTeXLinkMargin=\dimen186
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count305
-\Field@Width=\dimen178
-\Fld@charsize=\dimen179
+\Fld@menulength=\count317
+\Field@Width=\dimen187
+\Fld@charsize=\dimen188
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -238,15 +302,15 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count306
-\c@Item=\count307
-\c@Hfootnote=\count308
+\Hy@abspage=\count318
+\c@Item=\count319
+\c@Hfootnote=\count320
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count309
-\c@bookmark@seq@number=\count310
+\Fld@listcount=\count321
+\c@bookmark@seq@number=\count322
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -254,10 +318,10 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip60
 ) (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count311
+\l__color_backend_stack_int=\count323
 ) (main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -266,26 +330,26 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -323,41 +387,31 @@ LaTeX Info: Redefining \% on input line 18.
 
 (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count312
-\scratchdimen=\dimen180
-\scratchbox=\box62
-\nofMPsegments=\count313
-\nofMParguments=\count314
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count315
-\MPscratchDim=\dimen181
-\MPnumerator=\count316
-\makeMPintoPDFobject=\count317
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count324
+\scratchdimen=\dimen189
+\scratchbox=\box64
+\nofMPsegments=\count325
+\nofMParguments=\count326
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen190
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
+\everyMPtoPDFconversion=\toks32
 ) (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\EQUIPO\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 19.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 20.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 20.
  (main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
  [1
 
 {C:/Users/EQUIPO/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
@@ -370,21 +424,57 @@ Overfull \hbox (77.12473pt too wide) in paragraph at lines 61--68
  []
 
 ) (sections/02_datos.tex (tables/diccionario_variables.tex
-Overfull \hbox (33.77357pt too wide) in alignment at lines 1--5
+Overfull \hbox (19.5472pt too wide) in alignment at lines 1--5
  [] [] [] [] 
  []
 
 
-Overfull \hbox (33.77357pt too wide) in alignment at lines 5--9
+Overfull \hbox (19.5472pt too wide) in alignment at lines 5--9
  [] [] [] [] 
  []
 
 
-Overfull \hbox (33.77357pt too wide) in alignment at lines 9--20
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\T1/cmr/m/n/12 2=Me-ses, 3=Días, 4=Ho-ras, 5=Mi-nu-tos
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 17--17
+\T1/cmr/m/n/12 Con-tri-bu-ti-vo, S=Subsidiado, P=Excepción,
+ []
+
+
+Overfull \hbox (12.35132pt too wide) in paragraph at lines 45--45
+[]|\T1/cmr/m/n/12 acum_liquievento| 
+ []
+
+
+Overfull \hbox (19.5472pt too wide) in alignment at lines 9--50
  [] [] [] [] 
  []
 
-) (tables/reglas_calidad.tex [4])) (sections/03_preparacion.tex [5]) (sections/04_modelado.tex (tables/resultados_modelos.tex [6])) (sections/05_despliegue.tex [7]) (sections/06_conclusiones.tex) [8] (main.aux
+tables/diccionario_variables.tex:50: ignored error: Infinite glue shrinkage found in box being split [4]
+tables/diccionario_variables.tex:50: ignored error: Infinite glue shrinkage found in box being split [5]) (tables/reglas_calidad.tex
+Overfull \hbox (0.9704pt too wide) in paragraph at lines 55--55
+[]|\T1/cmr/m/n/12 acum_liquievento| 
+ []
+
+tables/reglas_calidad.tex:60: ignored error: Infinite glue shrinkage found in box being split [6])) (sections/03_preparacion.tex
+Overfull \hbox (67.7012pt too wide) in paragraph at lines 13--14
+\T1/cmr/bx/n/12 17.958 re-gis-tros\T1/cmr/m/n/12 . Lue-go se impu-taron nu-los en va-ria-bles ca-te-gó-ri-cas con \T1/cmtt/m/n/12 KNNImputer(n_neighbors=5)
+ []
+
+[7]) (sections/04_modelado.tex
+Overfull \hbox (44.32526pt too wide) in paragraph at lines 11--12
+[]\T1/cmr/m/n/12 Se reali-zó par-ti-ción es-tra-ti-fi-ca-da 70/30 so-bre el con-jun-to ba-lan-cea-do fi-nal: \T1/cmtt/m/n/12 X_train=(16207,46)
+ []
+
+[8] (tables/resultados_modelos.tex)) (sections/05_despliegue.tex
+Overfull \hbox (75.87607pt too wide) in paragraph at lines 34--1
+\T1/cmr/m/n/12 ta-ron re-call, pre-ci-sion y ac-cu-racy en test y se ex-por-ta-ron los ar-te-fac-tos \T1/cmtt/m/n/12 best_model_formal_7030.joblib
+ []
+
+[9]) (sections/06_conclusiones.tex) [10] (main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -396,17 +486,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 32B012FB26B131227CBC1DFE61874FB0;6151.
  ) 
 Here is how much of TeX's memory you used:
- 11062 strings out of 467871
- 175897 string characters out of 5417892
- 614712 words of memory out of 5000000
- 39743 multiletter control sequences out of 15000+600000
- 637767 words of font info for 61 fonts, out of 8000000 for 9000
+ 11776 strings out of 467871
+ 185297 string characters out of 5417892
+ 645025 words of memory out of 5000000
+ 40436 multiletter control sequences out of 15000+600000
+ 638892 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,512b,788s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
-Output written on main.pdf (8 pages, 157523 bytes).
+ 75i,8n,79p,512b,797s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/EQUIPO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/EQUIPO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on main.pdf (10 pages, 193568 bytes).
 PDF statistics:
- 573 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
  265 words of extra memory for PDF output out of 10000 (max. 10000000)
 

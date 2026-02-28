@@ -1,25 +1,25 @@
 \section{Preparación de datos}
 
 \subsection{Selección de variables}
-Se eliminaron variables con baja contribución y/o redundancia, manteniendo la variable objetivo al final del flujo para facilitar el procesamiento.
+Sobre el dataset inicial se eliminaron seis variables con baja contribución en el análisis exploratorio: \texttt{artralgia}, \texttt{dolrretroo}, \texttt{erupcionr}, \texttt{hipotermia}, \texttt{malgias} y \texttt{sexo\_}. Además, \texttt{pac\_hos\_} se mantuvo explícitamente como variable objetivo.
 
 \subsection{Descripción estadística}
-Se realizaron inspecciones de tipos, conteos, distribución de clases y porcentaje de nulos por variable.
+Se inspeccionaron tipos de datos, conteos de nulos por variable y distribución de clases de \texttt{pac\_hos\_} antes y después del balanceo.
 
 \subsection{Limpieza de atípicos}
-No se aplicó una eliminación masiva de atípicos por tratarse mayoritariamente de variables categóricas codificadas y binarias. En variables numéricas se verificó consistencia de rangos.
+No se realizó poda agresiva de atípicos por tratarse en su mayoría de variables categóricas/binarizadas. Para \texttt{edad\_} se verificó consistencia de rango observado en los datos.
 
 \subsection{Limpieza de nulos}
-Se eliminaron registros con alta proporción de nulos y se imputaron nulos categóricos usando KNN sobre codificación temporal.
+Se eliminaron filas con tres o más nulos (regla \texttt{isnull().sum(axis=1) < 3}), quedando \textbf{17.958 registros}. Luego se imputaron nulos en variables categóricas con \texttt{KNNImputer(n\_neighbors=5)} sobre una codificación temporal numérica.
 
 \subsection{Creación de nuevas variables}
-No se crearon variables sintéticas adicionales; se aplicó codificación one-hot para variables categóricas.
+No se crearon variables sintéticas. Se aplicó codificación one-hot para transformar variables categóricas a formato apto para modelado.
 
 \subsection{Análisis de relaciones}
-Se revisó comportamiento de la variable objetivo antes y después del balanceo, y relación de síntomas/atributos con la clase.
+Se analizó la distribución de la variable objetivo antes del balanceo (clase 2.0: 11.577, clase 1.0: 6.331) y después de SMOTE (11.577 por clase).
 
 \subsection{Reducción de dimensiones}
-En la versión actual no se aplicó PCA. La decisión se sustentó en mantener interpretabilidad y en dimensionalidad manejable tras selección de variables.
+No se aplicó PCA. Se mantuvo enfoque de interpretabilidad y se controló dimensionalidad mediante eliminación de variables redundantes posteriores al one-hot.
 
 \subsection{Balanceo}
-Se aplicó SMOTE para balancear las clases de hospitalización y reducir sesgo por desbalance de clase.
+Antes del balanceo se reservaron \textbf{50 registros completos} para evaluación de predicción futura (fase de despliegue), dejando \textbf{17.908 registros} para entrenamiento/evaluación formal. Sobre este conjunto se aplicó \texttt{SMOTE} con \texttt{k\_neighbors=5}, pasando de \texttt{(17908, 56)} a \texttt{(23154, 56)} y logrando balance exacto entre clases.

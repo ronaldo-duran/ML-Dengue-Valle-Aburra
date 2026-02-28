@@ -4,17 +4,17 @@
 \toprule
 Modelo & Tipo & F1-macro (CV train) & F1-macro (test) \\
 \midrule
-Regresión Logística & Clásico & --- & --- \\
-Árbol de Decisión & Clásico & --- & --- \\
-KNN & Clásico & --- & --- \\
-SVM & Clásico & --- & --- \\
-Red Neuronal MLP & Clásico & --- & --- \\
-VotingClassifier & Ensamble (Votación) & --- & --- \\
-Random Forest & Ensamble (Bagging) & --- & --- \\
-XGBoost & Ensamble (Boosting) & --- & --- \\
+Regresión Logística & Clásico & 0.7383 & 0.7488 \\
+Árbol de Decisión & Clásico & 0.7670 & 0.7761 \\
+KNN & Clásico & 0.7295 & 0.7394 \\
+SVM & Clásico & 0.7850 & 0.7963 \\
+Red Neuronal MLP & Clásico & 0.7737 & 0.7884 \\
+VotingClassifier & Ensamble (Votación) & 0.7702 & 0.7855 \\
+Random Forest & Ensamble (Bagging) & 0.7958 & 0.8077 \\
+XGBoost & Ensamble (Boosting) & 0.8143 & 0.8208 \\
 \bottomrule
 \end{tabular}
-\caption{Resultados comparativos de modelos}
+\caption{Resultados comparativos de modelos (bloque formal 70/30)}
 \end{table}
 
-\noindent\textbf{Nota:} completar con valores finales exportados del notebook (bloque formal 70/30).
+\noindent\textbf{Mejor modelo:} XGBoost, con \texttt{test\_f1\_macro=0.8208} y \texttt{test\_accuracy=0.8212}.

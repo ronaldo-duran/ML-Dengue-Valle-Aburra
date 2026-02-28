@@ -1,4 +1,4 @@
-\begin{longtable}{p{3cm}p{7cm}p{3cm}p{2.5cm}}
+\begin{longtable}{p{2.8cm}p{8.2cm}p{2cm}p{2cm}}
 \toprule
 Variable & Descripción & Tipo & Rol \\
 \midrule
@@ -7,14 +7,44 @@ Variable & Descripción & Tipo & Rol \\
 Variable & Descripción & Tipo & Rol \\
 \midrule
 \endhead
-edad\_ & Edad del paciente & Numérica & Entrada \\
-comuna & Comuna de residencia & Categórica & Entrada \\
-fiebre & Presencia de fiebre & Categórica & Entrada \\
-cefalea & Presencia de cefalea & Categórica & Entrada \\
-dolor\_abdo & Dolor abdominal & Categórica & Entrada \\
-vomito & Vómito & Categórica & Entrada \\
-hipotensio & Hipotensión & Categórica & Entrada \\
-pac\_hos\_ & Paciente hospitalizado (1=Sí, 2=No) & Categórica & Salida \\
+ID & Número consecutivo & Numérica & Entrada \\
+semana & semanas del año de 1 a 53 & Categórica & Entrada \\
+edad\_ & Edad & Numérica & Entrada \\
+uni\_med\_ & Unidad de medida: 0= No aplica,  1=Años, 2=Meses, 3=Días, 4=Horas, 5=Minutos SD=Sin informacion & Categórica & Entrada \\
+sexo\_ & M=Masculino, F=Femenino, SD=Sin informacion & Categórica & Entrada \\
+nombre\_barrio & Texto asociado a la tabla de barrios definidos por la entidad territorial, Vacios se diligencian con "Sin iNformacion", Sin ubicación en zona urbana. & Categórica & Entrada \\
+comuna & Texto asociado a la tabla de comunas definidos por la entidad territorial, Vacios se diligencian con "Sin iNformacion", Sin ubicación en zona urbana. & Categórica & Entrada \\
+tipo\_ss\_ & Tipo de Régimen de seguridad social: C= Contributivo, S=Subsidiado,  P=Excepción, E=Especial, N= No asegurado, I= Indeterminado/Pendiente, SD=Sin informacion. & Categórica & Entrada \\
+cod\_ase\_ & Codigo de la aseguradora & Categórica & Entrada \\
+fec\_con\_ & Fecha de Consulta & Categórica & Entrada \\
+ini\_sin\_ & Fecha de inicio de síntomas & Categórica & Entrada \\
+tip\_cas\_ & Tipo de caso: 1=Sospechoso, 2= Probable , 3=Confirmado por laboratorio , 4=Confirmado por clinica , 5= Confirmado por nexo epidemiológico. & Categórica & Entrada \\
+pac\_hos\_ & Paciente hospitalizado 1= Si, 2=No. & Categórica & Salida \\
+cod\_dpto\_r & Código departamento residencia & Categórica & Entrada \\
+cod\_mpio\_r & Código municipio residencia & Categórica & Entrada \\
+cod\_dpto\_o & Código departamento ocurrencia & Categórica & Entrada \\
+cod\_mpio\_o & Código municipio ocurrencia & Categórica & Entrada \\
+desplazami & 1= Si, 2=No. SD= Sin Informacion & Categórica & Entrada \\
+cod\_mun\_d & Código municipio desplazamiento & Categórica & Entrada \\
+clas\_dengue & 0= No aplica, 1=Dengue sin signos de alarma, 2=Dengue con signos de alarma 3=Dengue grave, SD=Sin Informacion & Categórica & Entrada \\
+fiebre & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+cefalea & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+dolrretroo & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+malgias & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+artralgia & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+erupcionr & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+dolor\_abdo & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+vomito & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+somnolenci & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+hipotensio & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+hepatomeg & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+hem\_mucosa & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+hipotermia & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+aum\_hemato & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+caida\_plaq & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+acum\_liquievento & 1= Si, 2=No.SD=Sin Informacion & Categórica & Entrada \\
+evento & Descripción del evento notificado & Categórica & Entrada \\
+year\_ & Año de notificación & Categórica & Entrada \\
 \bottomrule
-\caption{Diccionario resumido de variables relevantes}
+\caption{Diccionario completo de variables (fuente: diccionario\_datos.json)}
 \end{longtable}

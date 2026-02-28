@@ -2,7 +2,9 @@
 
 El proyecto permitió construir un sistema de clasificación para estimar hospitalización por dengue con base en síntomas y variables complementarias.
 
-La comparación sistemática entre modelos clásicos y ensambles permitió seleccionar el mejor enfoque según \texttt{F1-macro} en test.
+La comparación sistemática entre modelos clásicos y ensambles permitió seleccionar \textbf{XGBoost} como mejor enfoque, con \texttt{F1-macro=0.8208} y \texttt{accuracy=0.8212} en el conjunto formal de prueba (30\%).
+
+En la evaluación de despliegue sobre 50 registros reales reservados, el modelo logró 39 aciertos (\texttt{accuracy=0.78}), lo que confirma utilidad práctica como herramienta de apoyo a la decisión clínica.
 
 Como trabajo futuro se recomienda:
 \begin{itemize}

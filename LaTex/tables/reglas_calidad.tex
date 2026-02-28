@@ -2,25 +2,59 @@
 \centering
 \begin{tabular}{lll}
 \toprule
-Variable numérica & Valor mínimo & Valor máximo \\
+Variable numérica & Valor mínimo observado & Valor máximo observado \\
 \midrule
-edad\_ & 0 & 120 \\
+edad\_ & 0 & 174 \\
 \bottomrule
 \end{tabular}
-\caption{Reglas de calidad para variables numéricas}
+\caption{Reglas de calidad para variables numéricas (valores observados en dengue\_mod.csv)}
 \end{table}
 
-\begin{table}[H]
-\centering
-\begin{tabular}{ll}
+\begin{longtable}{p{3.2cm}p{10.5cm}}
 \toprule
-Variable categórica & Valores posibles \\
+Variable categórica & Valores posibles (según diccionario de datos) \\
 \midrule
-pac\_hos\_ & 1=Sí, 2=No \\
-fiebre & 1=Sí, 2=No, SD \\
-cefalea & 1=Sí, 2=No, SD \\
-hipotensio & 1=Sí, 2=No, SD \\
+\endfirsthead
+\toprule
+Variable categórica & Valores posibles (según diccionario de datos) \\
+\midrule
+\endhead
+semana & semanas del año de 1 a 53 \\
+uni\_med\_ & Unidad de medida: 0= No aplica, 1=Años, 2=Meses, 3=Días, 4=Horas, 5=Minutos Sin información=SD \\
+sexo\_ & Masculino=M, Femenino=F, Sin información=SD \\
+nombre\_barrio & Texto asociado a la tabla de barrios definidos por la entidad territorial, Vacios se diligencian con "Sin iNformacion", Sin ubicación en zona urbana. \\
+comuna & Texto asociado a la tabla de comunas definidos por la entidad territorial, Vacios se diligencian con "Sin iNformacion", Sin ubicación en zona urbana. \\
+tipo\_ss\_ & Tipo de Régimen de seguridad social: C= Contributivo, S=Subsidiado, P=Excepción, E=Especial, N= No asegurado, I= Indeterminado/Pendiente, Sin información=SD. \\
+cod\_ase\_ & Codigo de la aseguradora \\
+fec\_con\_ & Fecha de Consulta \\
+ini\_sin\_ & Fecha de inicio de síntomas \\
+tip\_cas\_ & Tipo de caso: 1=Sospechoso, 2= Probable , 3=Confirmado por laboratorio , 4=Confirmado por clinica , 5= Confirmado por nexo epidemiológico. \\
+pac\_hos\_ & Paciente hospitalizado Sí=1, No=2. \\
+cod\_dpto\_r & Código departamento residencia \\
+cod\_mpio\_r & Código municipio residencia \\
+cod\_dpto\_o & Código departamento ocurrencia \\
+cod\_mpio\_o & Código municipio ocurrencia \\
+desplazami & Sí=1, No=2. SD= Sin Informacion \\
+cod\_mun\_d & Código municipio desplazamiento \\
+clas\_dengue & 0= No aplica, 1=Dengue sin signos de alarma, 2=Dengue con signos de alarma 3=Dengue grave, Sin información=SD \\
+fiebre & Sí=1, No=2.Sin información=SD \\
+cefalea & Sí=1, No=2.Sin información=SD \\
+dolrretroo & Sí=1, No=2.Sin información=SD \\
+malgias & Sí=1, No=2.Sin información=SD \\
+artralgia & Sí=1, No=2.Sin información=SD \\
+erupcionr & Sí=1, No=2.Sin información=SD \\
+dolor\_abdo & Sí=1, No=2.Sin información=SD \\
+vomito & Sí=1, No=2.Sin información=SD \\
+somnolenci & Sí=1, No=2.Sin información=SD \\
+hipotensio & Sí=1, No=2.Sin información=SD \\
+hepatomeg & Sí=1, No=2.Sin información=SD \\
+hem\_mucosa & Sí=1, No=2.Sin información=SD \\
+hipotermia & Sí=1, No=2.Sin información=SD \\
+aum\_hemato & Sí=1, No=2.Sin información=SD \\
+caida\_plaq & Sí=1, No=2.Sin información=SD \\
+acum\_liquievento & Sí=1, No=2.Sin información=SD \\
+evento & Descripción del evento notificado \\
+year\_ & Año de notificación \\
 \bottomrule
-\end{tabular}
 \caption{Reglas de calidad para variables categóricas}
-\end{table}
+\end{longtable}

@@ -1,10 +1,10 @@
 \section{Despliegue}
 
 \subsection{Predicción de datos futuros}
-Se generó un conjunto de entrada nuevo y se aplicó el modelo final para predecir hospitalización.
+Se evaluó el modelo final sobre \textbf{50 registros reales reservados} y no usados en entrenamiento ni en el tuning.
 
 \subsection{Construcción del conjunto de entrada}
-El conjunto de entrada se estructuró con el mismo esquema de variables del modelo entrenado.
+El conjunto de entrada se construyó desde \texttt{df\_future\_raw}, conservando su etiqueta real para contrastar predicción vs realidad.
 
 \subsection{Preparación del conjunto nuevo}
 Se reindexaron columnas según \texttt{model\_input\_columns.joblib} para garantizar compatibilidad con el pipeline final.
@@ -16,7 +16,17 @@ Las salidas del modelo se interpretaron como:
     \item 0: Hospitalización No
 \end{itemize}
 
+En estos 50 registros se obtuvo:
+\begin{itemize}
+    \item Aciertos: 39
+    \item Fallos: 11
+    \item Accuracy: 0.78
+    \item F1-macro: 0.7329
+    \item Recall clase positiva: 0.5625
+    \item Precision clase positiva: 0.6923
+\end{itemize}
+
 \subsection{Aplicación web con Streamlit}
-Se implementó una app en \texttt{streamlit\_app/app.py} para cargar CSV y obtener predicciones.
+Se implementó una app en \texttt{streamlit\_app/app.py} con formulario manual de variables clínicas/demográficas, que genera la predicción y la interpretación de hospitalización esperada.
 
 \textbf{Pendiente para entrega final:} incluir captura de pantalla funcionando y URL pública de Streamlit Cloud.

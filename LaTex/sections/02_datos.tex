@@ -1,11 +1,13 @@
 \section{Entendimiento de los datos}
 
 \subsection{Diccionario de datos}
-El dataset principal contiene variables demográficas, geográficas y síntomas asociados a dengue. La variable objetivo del problema es \texttt{pac\_hos\_} (1=Sí hospitalización, 2=No).
+El dataset de trabajo \texttt{dengue\_mod.csv} contiene \textbf{53.813 registros} y \textbf{22 variables}. Incluye variables demográficas, geográficas y síntomas asociados al dengue.
+
+La variable objetivo del problema es \texttt{pac\_hos\_}. En el origen está codificada como \texttt{1=Sí hospitalización, 2=No}; para modelado se transformó a binaria \texttt{1=Sí, 0=No}.
 
 \input{tables/diccionario_variables}
 
 \subsection{Reglas de calidad}
-Se definieron reglas de validación para variables numéricas y categóricas, tomando como base el diccionario oficial y los valores observados en los datos.
+Se definieron reglas de validación para variables numéricas y categóricas con base en el diccionario oficial y en los valores observados en los datos reales.
 
 \input{tables/reglas_calidad}
