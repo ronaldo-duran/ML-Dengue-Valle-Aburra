@@ -21,6 +21,13 @@ La app requiere estos archivos en la raíz del proyecto:
 - `best_model_formal_7030.joblib`
 - `model_input_columns.joblib`
 
+## Modo de uso
+
+- La aplicación muestra un formulario para ingresar los datos del paciente.
+- `edad_` se ingresa como campo numérico.
+- Las columnas binarias/categóricas codificadas se diligencian con selector Sí/No.
+- Al enviar, la app devuelve si el caso requiere hospitalización o no.
+
 ## Despliegue en Streamlit Community Cloud
 
 1. Sube el proyecto a un repositorio de GitHub.

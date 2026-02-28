@@ -21,40 +21,63 @@ try:
     model, required_columns = load_artifacts()
 except Exception as e:
     st.error(f'No se pudieron cargar artefactos: {e}')
+    st.info('Asegúrate de ejecutar primero el notebook para generar: best_model_formal_7030.joblib y model_input_columns.joblib')
     st.stop()
 
-st.markdown('### Cargar datos para predicción')
-st.write('Sube un CSV con las mismas columnas de entrada del modelo entrenado.')
+st.markdown('### Formulario de ingreso de datos')
+st.write('Completa los campos y presiona **Predecir hospitalización**.')
 
-uploaded = st.file_uploader('Archivo CSV de entrada', type=['csv'])
+# =========================================================
+# Regla de UI:
+# - edad_: campo numérico
+# - resto de columnas (one-hot/binarias): selector Sí/No
+# =========================================================
+feature_values = {}
 
-if uploaded is not None:
-    input_df = pd.read_csv(uploaded)
-    st.markdown('#### Vista previa del archivo cargado')
-    st.dataframe(input_df.head(), use_container_width=True)
+with st.form('form_prediccion'):
+    st.markdown('#### Datos del paciente')
 
-    prepared_df = input_df.reindex(columns=required_columns, fill_value=0)
+    for column_name in required_columns:
+        if column_name == 'edad_':
+            feature_values[column_name] = st.number_input(
+                'Edad',
+                min_value=0,
+                max_value=120,
+                value=30,
+                step=1
+            )
+        else:
+            selected_option = st.selectbox(
+                f'{column_name} (Sí/No)',
+                options=['No', 'Sí'],
+                index=0
+            )
+            feature_values[column_name] = 1 if selected_option == 'Sí' else 0
 
-    if st.button('Predecir'):
-        pred_binary = model.predict(prepared_df)
-        pred_text = np.where(pred_binary == 1, 'Hospitalización: Sí', 'Hospitalización: No')
+    submit_prediction = st.form_submit_button('Predecir hospitalización')
 
-        output_df = input_df.copy()
-        output_df['pred_binaria'] = pred_binary
-        output_df['pred_interpretacion'] = pred_text
+if submit_prediction:
+    input_df = pd.DataFrame([feature_values], columns=required_columns)
+    prediction_binary = model.predict(input_df)[0]
+    prediction_text = 'Hospitalización: Sí' if prediction_binary == 1 else 'Hospitalización: No'
 
-        st.markdown('#### Resultados')
-        st.dataframe(output_df, use_container_width=True)
+    st.markdown('### Resultado')
+    st.success(prediction_text)
 
-        csv_out = output_df.to_csv(index=False).encode('utf-8')
-        st.download_button(
-            label='Descargar resultados CSV',
-            data=csv_out,
-            file_name='predicciones_dengue.csv',
-            mime='text/csv'
-        )
-else:
-    st.info('Sube un archivo CSV para ejecutar predicciones.')
+    st.markdown('#### Registro ingresado')
+    st.dataframe(input_df, use_container_width=True)
+
+    result_df = input_df.copy()
+    result_df['pred_binaria'] = prediction_binary
+    result_df['pred_interpretacion'] = prediction_text
+
+    csv_out = result_df.to_csv(index=False).encode('utf-8')
+    st.download_button(
+        label='Descargar resultado CSV',
+        data=csv_out,
+        file_name='prediccion_individual_dengue.csv',
+        mime='text/csv'
+    )
 
 st.markdown('---')
 st.write('Modelo usado: best_model_formal_7030.joblib')

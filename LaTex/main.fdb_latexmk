@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1772307614.18355 "c:/Users/EQUIPO/Downloads/Aprendizaje de maquinas/LaTex/main.tex" "main.pdf" "main" 1772307615.33163 0
+["pdflatex"] 1772314816.61734 "c:/Users/EQUIPO/Downloads/Aprendizaje de maquinas/LaTex/main.tex" "main.pdf" "main" 1772314818.07398 0
   "C:/Users/EQUIPO/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1772307600 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/EQUIPO/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1772307604 31952 edae6475ea61d025e34bd951f269a3a0 ""
   "C:/Users/EQUIPO/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1772307607 40136 f615fe73f8cd8384a498b74b385e345e ""
@@ -80,11 +80,11 @@
   "C:/Users/EQUIPO/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1761901070 16014 dfa4b4d4e04a78a3f05a90c19711737a ""
   "C:/Users/EQUIPO/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "c:/Users/EQUIPO/Downloads/Aprendizaje de maquinas/LaTex/main.tex" 1772305888 825 7ca3e5dcc30185a846e123e895e8d657 ""
-  "main.aux" 1772307615 5431 9e058275eca13694bc41a47f81b2eeec "pdflatex"
-  "main.out" 1772307615 6000 25d714bfe5b0e6566e5487d2e64e205b "pdflatex"
+  "main.aux" 1772314817 5564 4c51bfbc00677f8160369a949b995800 "pdflatex"
+  "main.out" 1772314817 6151 32b012fb26b131227cbc1dfe61874fb0 "pdflatex"
   "main.tex" 1772305888 825 7ca3e5dcc30185a846e123e895e8d657 ""
-  "main.toc" 1772307615 2925 d74ca07c0064343c576c8700d43d03f1 "pdflatex"
-  "sections/01_negocio.tex" 1772305888 1380 4d4a19f7f2208a4ee0eb6985eaa56b89 ""
+  "main.toc" 1772314817 3017 a00f386594ef3a99b7455bcbae43b311 "pdflatex"
+  "sections/01_negocio.tex" 1772314813 3995 48aae229295da7d2cca4599c39b65674 ""
   "sections/02_datos.tex" 1772305888 529 739b5bb3994a8fa2ee19ca9a33ab273e ""
   "sections/03_preparacion.tex" 1772305888 1425 98bcb9fa3487debc119100e8f66db651 ""
   "sections/04_modelado.tex" 1772305888 1399 c3141f064774a71b173564d561fa27a8 ""

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.28)  28 FEB 2026 14:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.28)  28 FEB 2026 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -364,8 +364,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2] (sections/01_negocio.tex
-Overfull \hbox (77.12473pt too wide) in paragraph at lines 21--28
+ [2] (sections/01_negocio.tex [3]
+Overfull \hbox (77.12473pt too wide) in paragraph at lines 61--68
  [][] 
  []
 
@@ -384,7 +384,7 @@ Overfull \hbox (33.77357pt too wide) in alignment at lines 9--20
  [] [] [] [] 
  []
 
-tables/diccionario_variables.tex:20: ignored error: Infinite glue shrinkage found in box being split [3]) (tables/reglas_calidad.tex)) (sections/03_preparacion.tex [4]) (sections/04_modelado.tex (tables/resultados_modelos.tex [5])) (sections/05_despliegue.tex [6]) (sections/06_conclusiones.tex) [7] (main.aux
+) (tables/reglas_calidad.tex [4])) (sections/03_preparacion.tex [5]) (sections/04_modelado.tex (tables/resultados_modelos.tex [6])) (sections/05_despliegue.tex [7]) (sections/06_conclusiones.tex) [8] (main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -393,20 +393,20 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 25D714BFE5B0E6566E5487D2E64E205B;6000.
+(rerunfilecheck)             Checksum: 32B012FB26B131227CBC1DFE61874FB0;6151.
  ) 
 Here is how much of TeX's memory you used:
- 11059 strings out of 467871
- 175851 string characters out of 5417892
- 613709 words of memory out of 5000000
- 39742 multiletter control sequences out of 15000+600000
+ 11062 strings out of 467871
+ 175897 string characters out of 5417892
+ 614712 words of memory out of 5000000
+ 39743 multiletter control sequences out of 15000+600000
  637767 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,425b,788s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
-Output written on main.pdf (7 pages, 149995 bytes).
+ 75i,8n,79p,512b,788s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\EQUIPO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
+Output written on main.pdf (8 pages, 157523 bytes).
 PDF statistics:
- 552 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 257 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 573 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 

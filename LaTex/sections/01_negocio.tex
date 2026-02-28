@@ -1,13 +1,53 @@
 \section{Entendimiento del negocio}
 
 \subsection{Descripción del negocio}
-El dengue es un problema de salud pública que exige decisiones oportunas para priorizar recursos clínicos, en especial la hospitalización de pacientes con mayor riesgo de complicación.
+El presente proyecto se desarrolla en el sector de salud pública, utilizando datos abiertos provenientes de la plataforma MEData de la Alcaldía de Medellín (Colombia). El estudio se enfoca en el análisis de pacientes diagnosticados con dengue, enfermedad viral transmitida por el mosquito \textit{Aedes aegypti}, que constituye un problema recurrente de salud pública en regiones tropicales.
+
+Desde la perspectiva del sistema de salud, la hospitalización de pacientes con dengue representa un alto costo en términos de recursos hospitalarios, talento humano y ocupación de camas. Adicionalmente, la identificación tardía de pacientes con riesgo de complicaciones puede derivar en desenlaces clínicos graves e incluso en mortalidad.
+
+En este contexto, contar con un modelo predictivo que permita anticipar la probabilidad de hospitalización de un paciente con síntomas de dengue puede contribuir a:
+
+\begin{itemize}
+    \item Optimizar la asignación de recursos hospitalarios.
+    \item Implementar intervenciones médicas tempranas.
+    \item Reducir costos asociados a hospitalizaciones evitables.
+    \item Disminuir complicaciones clínicas.
+    \item Apoyar la toma de decisiones médicas basada en datos.
+\end{itemize}
+
+Este proyecto se desarrolla con fines académicos en el marco del programa de maestría, aplicando técnicas de minería de datos bajo la metodología CRISP-DM.
 
 \subsection{Descripción del problema}
-Se requiere un modelo predictivo que estime si un paciente con sospecha o confirmación de dengue es candidato a hospitalización, usando variables clínicas, demográficas y geográficas.
+
+El problema consiste en predecir si un paciente diagnosticado con dengue requerirá hospitalización, a partir de variables demográficas, administrativas y sintomatológicas registradas en el sistema de vigilancia epidemiológica.
+
+La variable objetivo del modelo es:
+
+\begin{itemize}
+    \item \textbf{pac\_hos\_}: Variable binaria que indica si el paciente fue hospitalizado (1) o no (0).
+\end{itemize}
+
+El problema se formula como una tarea de clasificación supervisada binaria, dado que el modelo aprenderá a partir de datos históricos etiquetados.
+
+Actualmente, la decisión de hospitalización se toma con base en criterios clínicos establecidos por protocolos médicos. No obstante, un modelo predictivo puede servir como herramienta de apoyo para:
+
+\begin{itemize}
+    \item Identificar pacientes con alto riesgo de hospitalización.
+    \item Priorizar seguimiento clínico.
+    \item Mejorar protocolos de atención temprana.
+\end{itemize}
+
+Un desafío adicional del problema es el desbalance de clases, dado que la proporción de pacientes hospitalizados es considerablemente menor que la de pacientes no hospitalizados.
 
 \subsection{Objetivos de la minería}
+
+\subsubsection{Objetivo general}
+
+Desarrollar y evaluar un modelo de clasificación supervisada capaz de predecir la hospitalización de pacientes con diagnóstico de dengue, utilizando variables demográficas y clínicas registradas en datos abiertos de la ciudad de Medellín.
+
 \begin{itemize}
+    \item Analizar la calidad y estructura del conjunto de datos.
+    \item Realizar procesos de limpieza y transformación de datos.
     \item Construir modelos de clasificación supervisada para la variable objetivo \texttt{pac\_hos\_}.
     \item Optimizar hiperparámetros con validación cruzada para maximizar desempeño.
     \item Comparar modelos clásicos y ensambles para seleccionar el mejor.
