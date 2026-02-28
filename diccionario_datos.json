@@ -1,0 +1,346 @@
+{
+    "fields": [
+        {
+            "name": "ID",
+            "type": "number",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Número consecutivo"
+        },
+        {
+            "name": "semana",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "semanas del año de 1 a 53"
+        },
+        {
+            "name": "edad_",
+            "type": "number",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Edad"
+        },
+        {
+            "name": "uni_med_",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Unidad de medida:\n0= No aplica,  1=Años, 2=Meses, 3=Días, 4=Horas, 5=Minutos SD=Sin informacion"
+        },
+        {
+            "name": "sexo_",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "M=Masculino, F=Femenino, SD=Sin informacion"
+        },
+        {
+            "name": "nombre_barrio",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Texto asociado a la tabla de barrios definidos por la entidad territorial, Vacios se diligencian con \"Sin iNformacion\", Sin ubicación en zona urbana."
+        },
+        {
+            "name": "comuna",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Texto asociado a la tabla de comunas definidos por la entidad territorial, Vacios se diligencian con \"Sin iNformacion\", Sin ubicación en zona urbana."
+        },
+        {
+            "name": "tipo_ss_",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Tipo de Régimen de seguridad social:\nC= Contributivo, S=Subsidiado,  P=Excepción, E=Especial,\nN= No asegurado, I= Indeterminado/Pendiente, SD=Sin informacion."
+        },
+        {
+            "name": "cod_ase_",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            },
+            "description": "Codigo de la aseguradora"
+        },
+        {
+            "name": "fec_con_",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            },
+            "description": "Fecha de Consulta"
+        },
+        {
+            "name": "ini_sin_",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            },
+            "description": "Fecha de inicio de síntomas"
+        },
+        {
+            "name": "tip_cas_",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Tipo de caso:\n1=Sospechoso, 2= Probable , 3=Confirmado por laboratorio , 4=Confirmado por clinica , 5= Confirmado por nexo epidemiológico."
+        },
+        {
+            "name": "pac_hos_",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Paciente hospitalizado\n1= Si, 2=No."
+        },
+        {
+            "name": "cod_dpto_r",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Código departamento residencia"
+        },
+        {
+            "name": "cod_mpio_r",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Código municipio residencia"
+        },
+        {
+            "name": "cod_dpto_o",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Código departamento ocurrencia"
+        },
+        {
+            "name": "cod_mpio_o",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Código municipio ocurrencia"
+        },
+        {
+            "name": "desplazami",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No. SD= Sin Informacion"
+        },
+        {
+            "name": "cod_mun_d",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Código municipio desplazamiento"
+        },
+        {
+            "name": "clas_dengue",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "0= No aplica, 1=Dengue sin signos de alarma, 2=Dengue con signos de alarma 3=Dengue grave, SD=Sin Informacion"
+        },
+        {
+            "name": "fiebre",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "cefalea",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "dolrretroo",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "malgias",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "artralgia",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "erupcionr",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "dolor_abdo",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "vomito",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "somnolenci",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "hipotensio",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "hepatomeg",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "hem_mucosa",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "hipotermia",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "aum_hemato",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "caida_plaq",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "acum_liquievento",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "1= Si, 2=No.SD=Sin Informacion"
+        },
+        {
+            "name": "evento",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Descripción del evento notificado"
+        },
+        {
+            "name": "year_",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            },
+            "description": "Año de notificación"
+        }
+    ]
+}
