@@ -1,0 +1,22 @@
+\section{Despliegue}
+
+\subsection{Predicción de datos futuros}
+Se generó un conjunto de entrada nuevo y se aplicó el modelo final para predecir hospitalización.
+
+\subsection{Construcción del conjunto de entrada}
+El conjunto de entrada se estructuró con el mismo esquema de variables del modelo entrenado.
+
+\subsection{Preparación del conjunto nuevo}
+Se reindexaron columnas según \texttt{model\_input\_columns.joblib} para garantizar compatibilidad con el pipeline final.
+
+\subsection{Predicción e interpretación}
+Las salidas del modelo se interpretaron como:
+\begin{itemize}
+    \item 1: Hospitalización Sí
+    \item 0: Hospitalización No
+\end{itemize}
+
+\subsection{Aplicación web con Streamlit}
+Se implementó una app en \texttt{streamlit\_app/app.py} para cargar CSV y obtener predicciones.
+
+\textbf{Pendiente para entrega final:} incluir captura de pantalla funcionando y URL pública de Streamlit Cloud.

@@ -1,0 +1,29 @@
+\section{Entendimiento del negocio}
+
+\subsection{Descripción del negocio}
+El dengue es un problema de salud pública que exige decisiones oportunas para priorizar recursos clínicos, en especial la hospitalización de pacientes con mayor riesgo de complicación.
+
+\subsection{Descripción del problema}
+Se requiere un modelo predictivo que estime si un paciente con sospecha o confirmación de dengue es candidato a hospitalización, usando variables clínicas, demográficas y geográficas.
+
+\subsection{Objetivos de la minería}
+\begin{itemize}
+    \item Construir modelos de clasificación supervisada para la variable objetivo \texttt{pac\_hos\_}.
+    \item Optimizar hiperparámetros con validación cruzada para maximizar desempeño.
+    \item Comparar modelos clásicos y ensambles para seleccionar el mejor.
+\end{itemize}
+
+\subsection{Diseño de solución}
+Se implementó un flujo CRISP-DM: comprensión de datos, preparación, modelamiento con hiperparametrización, evaluación en \textit{hold-out} y despliegue básico con Streamlit.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{llll}
+\toprule
+Tipo de análisis & Tipo de aprendizaje & Métodos & Evaluación \\
+\midrule
+Predictivo & Supervisado & Clásicos + Ensambles & F1-macro, recall, precision, accuracy \\
+\bottomrule
+\end{tabular}
+\caption{Diseño general del análisis}
+\end{table}

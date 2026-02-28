@@ -1,0 +1,28 @@
+\section{Modelamiento y evaluación}
+
+\subsection{Configuración y selección de métodos}
+Se trabajó con dos familias:
+\begin{itemize}
+    \item \textbf{Modelos clásicos (5):} Regresión Logística, Árbol de Decisión, KNN, SVM y MLP.
+    \item \textbf{Ensembles (3):} VotingClassifier (votación), Random Forest (bagging) y XGBoost (boosting).
+\end{itemize}
+
+\subsection{Ajuste de hiperparámetros con 70\% de datos + CV}
+Se realizó partición estratificada 70/30. El ajuste de hiperparámetros se ejecutó exclusivamente en el 70\% de entrenamiento mediante \texttt{GridSearchCV} y validación cruzada estratificada.
+
+\subsubsection{Justificación de la métrica}
+Se utilizó \textbf{F1-macro} como métrica principal para balancear desempeño entre clases y no favorecer una clase particular.
+
+\subsubsection{Ajuste de modelos clásicos}
+Se ajustaron hiperparámetros de los 5 modelos clásicos definidos.
+
+\subsubsection{Ajuste de modelos de ensamble}
+Se ajustaron hiperparámetros de VotingClassifier, Random Forest y XGBoost.
+
+\subsection{Medida de calidad del modelo}
+La evaluación final se hizo sobre el 30\% de prueba no usado en tuning.
+
+\input{tables/resultados_modelos}
+
+\subsubsection{Selección del mejor modelo}
+El mejor modelo se seleccionó por el mayor valor de \texttt{test\_f1\_macro}. Además, se reportaron recall, precision y accuracy en test.

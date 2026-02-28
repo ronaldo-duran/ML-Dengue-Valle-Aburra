@@ -1,0 +1,25 @@
+\section{Preparación de datos}
+
+\subsection{Selección de variables}
+Se eliminaron variables con baja contribución y/o redundancia, manteniendo la variable objetivo al final del flujo para facilitar el procesamiento.
+
+\subsection{Descripción estadística}
+Se realizaron inspecciones de tipos, conteos, distribución de clases y porcentaje de nulos por variable.
+
+\subsection{Limpieza de atípicos}
+No se aplicó una eliminación masiva de atípicos por tratarse mayoritariamente de variables categóricas codificadas y binarias. En variables numéricas se verificó consistencia de rangos.
+
+\subsection{Limpieza de nulos}
+Se eliminaron registros con alta proporción de nulos y se imputaron nulos categóricos usando KNN sobre codificación temporal.
+
+\subsection{Creación de nuevas variables}
+No se crearon variables sintéticas adicionales; se aplicó codificación one-hot para variables categóricas.
+
+\subsection{Análisis de relaciones}
+Se revisó comportamiento de la variable objetivo antes y después del balanceo, y relación de síntomas/atributos con la clase.
+
+\subsection{Reducción de dimensiones}
+En la versión actual no se aplicó PCA. La decisión se sustentó en mantener interpretabilidad y en dimensionalidad manejable tras selección de variables.
+
+\subsection{Balanceo}
+Se aplicó SMOTE para balancear las clases de hospitalización y reducir sesgo por desbalance de clase.
